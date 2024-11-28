@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3963a32-9eb4-42fc-8f94-ce6d282106d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/integration_api/class_for_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integration_api/classes_for_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/help_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/interactive_with_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vacancy/class_vacancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vacancy/vacancies_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/write_json/base_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/write_json/work_with_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_class_vacancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_vacancies_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_work_with_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integration_api/classes_for_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration_api/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,142 +62,124 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_views.test_get_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reports.executor&quot;: &quot;Run&quot;,
-    &quot;Python.services.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.views.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;right__way&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_func.test_count_services_1.executor": "Run",
+    "Python tests.Python tests for test_func.test_count_services_2.executor": "Run",
+    "Python tests.Python tests for test_func.test_end_word_question.executor": "Run",
+    "Python tests.Python tests for test_service.test_get_vacancies_hh.executor": "Run",
+    "Python tests.Python tests for test_service.test_params.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_filter_vacancies.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_filter_vacancy_by_keywords.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_get_top_vacancies.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_get_vacancies_by_salary.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_sort_vacancies.executor": "Run",
+    "Python tests.Python tests for test_views.test_get_operations.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_delete_from_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_file_name_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_load_from_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_write_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_write_to_file_top_n_vac_json.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.reports.executor": "Run",
+    "Python.services.executor": "Run",
+    "Python.utils.executor": "Debug",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "right__way",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\PycharmProjects\checking_project\src\write_json" />
       <recent name="C:\Users\Ivan\PycharmProjects\checking_project\src\integration_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.class_for_api">
-    <configuration name="class_for_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_service.test_get_vacancies_hh">
+    <configuration name="Python tests for test_service.test_get_vacancies_hh" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="checking_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ivan\PycharmProjects\checking_project\src\integration_api\class_for_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_service.test_get_vacancies_hh&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vacancies_list.test_filter_vacancies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="checking_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vacancies_list.test_filter_vacancies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="reports" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vacancies_list.test_get_top_vacancies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="checking_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/reports.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vacancies_list.test_get_top_vacancies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="services" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vacancies_list.test_get_vacancies_by_salary" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="checking_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/services.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vacancies_list.test_get_vacancies_by_salary&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_vacancies_list.test_sort_vacancies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="checking_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vacancies_list.test_sort_vacancies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.class_for_api" />
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.services" />
-        <item itemvalue="Python.reports" />
+        <item itemvalue="Python tests.Python tests for test_service.test_get_vacancies_hh" />
+        <item itemvalue="Python tests.Python tests for test_vacancies_list.test_get_top_vacancies" />
+        <item itemvalue="Python tests.Python tests for test_vacancies_list.test_sort_vacancies" />
+        <item itemvalue="Python tests.Python tests for test_vacancies_list.test_get_vacancies_by_salary" />
+        <item itemvalue="Python tests.Python tests for test_vacancies_list.test_filter_vacancies" />
       </list>
     </recent_temporary>
   </component>
