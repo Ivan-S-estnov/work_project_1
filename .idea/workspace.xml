@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3963a32-9eb4-42fc-8f94-ce6d282106d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/file_with_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_file_with_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/vacancies.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,35 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_func.test_count_services_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_func.test_count_services_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_func.test_end_word_question.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service.test_get_vacancies_hh.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_service.test_params.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vacancies_list.test_filter_vacancies.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vacancies_list.test_filter_vacancy_by_keywords.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vacancies_list.test_get_top_vacancies.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vacancies_list.test_get_vacancies_by_salary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vacancies_list.test_sort_vacancies.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_views.test_get_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_work_with_data.test_delete_from_file_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_work_with_data.test_file_name_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_work_with_data.test_load_from_file_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_work_with_data.test_write_file_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_work_with_data.test_write_to_file_top_n_vac_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reports.executor&quot;: &quot;Run&quot;,
-    &quot;Python.services.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.views.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;right__way&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_func.test_count_services_1.executor": "Run",
+    "Python tests.Python tests for test_func.test_count_services_2.executor": "Run",
+    "Python tests.Python tests for test_func.test_end_word_question.executor": "Run",
+    "Python tests.Python tests for test_service.test_get_vacancies_hh.executor": "Run",
+    "Python tests.Python tests for test_service.test_params.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_filter_vacancies.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_filter_vacancy_by_keywords.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_get_top_vacancies.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_get_vacancies_by_salary.executor": "Run",
+    "Python tests.Python tests for test_vacancies_list.test_sort_vacancies.executor": "Run",
+    "Python tests.Python tests for test_views.test_get_operations.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_delete_from_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_file_name_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_load_from_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_write_file_json.executor": "Run",
+    "Python tests.Python tests for test_work_with_data.test_write_to_file_top_n_vac_json.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.reports.executor": "Run",
+    "Python.services.executor": "Run",
+    "Python.utils.executor": "Debug",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#1 on right__way",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ivan\PycharmProjects\checking_project\src\write_json" />
